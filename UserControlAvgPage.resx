@@ -1,0 +1,2589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="dgvcolPowerP2.HeaderText" xml:space="preserve">
+    <value>P 2, W</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dgvcolUlinHarmMarked.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="dgvcolUIUavrBC.HeaderText" xml:space="preserve">
+    <value>U(av.r.) BC, V</value>
+  </data>
+  <data name="dvgcolPqpDUrelAneg.HeaderText" xml:space="preserve">
+    <value>δUrel A-, %</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpP0.Name" xml:space="preserve">
+    <value>dgvcolPqpP0</value>
+  </data>
+  <data name="dgvcolUIIrmsC.HeaderText" xml:space="preserve">
+    <value>I rms C, A</value>
+  </data>
+  <data name="dgvcolIInterharmTime.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="dgvcolPowerKpA.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIUavrA.Name" xml:space="preserve">
+    <value>dgvcolUIUavrA</value>
+  </data>
+  <data name="dgvcolUII0A.HeaderText" xml:space="preserve">
+    <value>I (0) A, A</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dgvUphHarm.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrelBneg.Name" xml:space="preserve">
+    <value>dvgcolPqpDUrelBneg</value>
+  </data>
+  <data name="&gt;&gt;tpPower.Name" xml:space="preserve">
+    <value>tpPower</value>
+  </data>
+  <data name="dgvcolPowerKpB.HeaderText" xml:space="preserve">
+    <value>PF B</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tpIInterHarmonisc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;tpULinHarmonics.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="dgvcolAngU1cbI1c.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIU0C.Name" xml:space="preserve">
+    <value>dgvcolUIU0C</value>
+  </data>
+  <data name="dgvcolPowerSc.HeaderText" xml:space="preserve">
+    <value>S C, VA</value>
+  </data>
+  <data name="&gt;&gt;dgvcolAngU1abI1a.Name" xml:space="preserve">
+    <value>dgvcolAngU1abI1a</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrel1Y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolAngU1aI1a.HeaderText" xml:space="preserve">
+    <value>&lt;U(1)A I(1)A, °</value>
+  </data>
+  <data name="dgvcolPowerP1.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerMarked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tpUI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 631</value>
+  </data>
+  <data name="dgvcolUIMarked.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="dgvcolUphInterharmTime.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;dgvcolAngU1aI1a.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolAngU1cU1a.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolPowerSsum.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="dgvUlinHarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 631</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerKpB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolPowerP2.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="dvgcolPqpDUrel1C.HeaderText" xml:space="preserve">
+    <value>δUrel(1) C, %</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUApos.Name" xml:space="preserve">
+    <value>dvgcolPqpDUApos</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUII0B.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvUI.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerP1.Name" xml:space="preserve">
+    <value>dgvcolPowerP1</value>
+  </data>
+  <data name="&gt;&gt;dgvIHarm.Name" xml:space="preserve">
+    <value>dgvIHarm</value>
+  </data>
+  <data name="&gt;&gt;tpIInterHarmonisc.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerP1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIUavrB.Name" xml:space="preserve">
+    <value>dgvcolUIUavrB</value>
+  </data>
+  <data name="&gt;&gt;dgvcolAngU1bI1b.Name" xml:space="preserve">
+    <value>dgvcolAngU1bI1b</value>
+  </data>
+  <data name="scMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dgvcolUIIrmsA.HeaderText" xml:space="preserve">
+    <value>I rms A, A</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrelBneg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolPqpAngleP2.HeaderText" xml:space="preserve">
+    <value>&lt;P2, °</value>
+  </data>
+  <data name="&gt;&gt;tpIInterHarmonisc.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;dgvUphInterharm.Parent" xml:space="preserve">
+    <value>tpUPhInterHarmonics</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerPb.Name" xml:space="preserve">
+    <value>dgvcolPowerPb</value>
+  </data>
+  <data name="&gt;&gt;dgvcolAngU1bU1c.Name" xml:space="preserve">
+    <value>dgvcolAngU1bU1c</value>
+  </data>
+  <data name="tpPhAngles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="dvgcolPqpDUABneg.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="dgvUphInterharm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 631</value>
+  </data>
+  <data name="tpIHarmonisc.Text" xml:space="preserve">
+    <value>Current Harmonics</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIU1B.Name" xml:space="preserve">
+    <value>dgvcolUIU1B</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUABpos.Name" xml:space="preserve">
+    <value>dvgcolPqpDUABpos</value>
+  </data>
+  <data name="dvgcolPqpDUApos.HeaderText" xml:space="preserve">
+    <value>δU A+, V</value>
+  </data>
+  <data name="tpUI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="dgvIHarm.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUCApos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolPqpAngleP0.HeaderText" xml:space="preserve">
+    <value>&lt;P0, °</value>
+  </data>
+  <data name="dgvcolPqpI2.HeaderText" xml:space="preserve">
+    <value>I 2, A</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpI2.Name" xml:space="preserve">
+    <value>dgvcolPqpI2</value>
+  </data>
+  <data name="&gt;&gt;dgvUphInterharm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tpULinHarmonics.Text" xml:space="preserve">
+    <value>Voltage Lin Harmonics</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIU1C.Name" xml:space="preserve">
+    <value>dgvcolUIU1C</value>
+  </data>
+  <data name="dgvcolPowerKpSum.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;dgvcolAngTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvPower.Parent" xml:space="preserve">
+    <value>tpPower</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrel1AB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpPqp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpIInterHarmonisc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolAngU1bU1c.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrelBCpos.Name" xml:space="preserve">
+    <value>dvgcolPqpDUrelBCpos</value>
+  </data>
+  <data name="scMain.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="dvgcolPqpDUABneg.HeaderText" xml:space="preserve">
+    <value>δU AB-, V</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIU1A.Name" xml:space="preserve">
+    <value>dgvcolUIU1A</value>
+  </data>
+  <data name="&gt;&gt;dgvUphInterharm.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUAneg.Name" xml:space="preserve">
+    <value>dvgcolPqpDUAneg</value>
+  </data>
+  <data name="tpULinHarmonics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 631</value>
+  </data>
+  <data name="&gt;&gt;dgvcolAngMarked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvUlinHarm.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="dgvcolUIIavrC.HeaderText" xml:space="preserve">
+    <value>I (av.r.) C, A</value>
+  </data>
+  <data name="dgvcolUIU0BC.HeaderText" xml:space="preserve">
+    <value>U(0) BC, V</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>UserControlAvgPage</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerSa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpULinInterHarmonics.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="dgvcolUIUrmsA.HeaderText" xml:space="preserve">
+    <value>U rms A, V</value>
+  </data>
+  <data name="&gt;&gt;scMain.Name" xml:space="preserve">
+    <value>scMain</value>
+  </data>
+  <data name="tpULinInterHarmonics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;dgvPqp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIIrmsA.Name" xml:space="preserve">
+    <value>dgvcolUIIrmsA</value>
+  </data>
+  <data name="dgvcolIHarmTime.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="dvgcolPqpDUrelApos.HeaderText" xml:space="preserve">
+    <value>δUrel A+, %</value>
+  </data>
+  <data name="&gt;&gt;scMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dgvUphInterharm.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;tpULinInterHarmonics.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="dvgcolPqpDUrel1BC.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="dgvcolUphInterharmTime.HeaderText" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrelCApos.Name" xml:space="preserve">
+    <value>dvgcolPqpDUrelCApos</value>
+  </data>
+  <data name="dgvcolPowerPc.HeaderText" xml:space="preserve">
+    <value>P C, W</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIUrmsC.Name" xml:space="preserve">
+    <value>dgvcolUIUrmsC</value>
+  </data>
+  <data name="dgvcolPowerQsum.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerQc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolIHarmMarked.Name" xml:space="preserve">
+    <value>dgvcolIHarmMarked</value>
+  </data>
+  <data name="&gt;&gt;tpPower.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpUI.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dvgcolPqpDUrelABneg.HeaderText" xml:space="preserve">
+    <value>δUrel AB-, %</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerQsum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpI1.Name" xml:space="preserve">
+    <value>dgvcolPqpI1</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpTime.Name" xml:space="preserve">
+    <value>dgvcolPqpTime</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUII0B.Name" xml:space="preserve">
+    <value>dgvcolUII0B</value>
+  </data>
+  <data name="dgvUlinHarm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;dgvcolAngMarked.Name" xml:space="preserve">
+    <value>dgvcolAngMarked</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUCAneg.Name" xml:space="preserve">
+    <value>dvgcolPqpDUCAneg</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUCpos.Name" xml:space="preserve">
+    <value>dvgcolPqpDUCpos</value>
+  </data>
+  <data name="dgvcolAngU1aU1b.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="dgvcolUIU1CA.HeaderText" xml:space="preserve">
+    <value>U(1) CA, V</value>
+  </data>
+  <data name="dgvcolPqpI0.HeaderText" xml:space="preserve">
+    <value>I 0, A</value>
+  </data>
+  <data name="&gt;&gt;scMain.Panel2.Parent" xml:space="preserve">
+    <value>scMain</value>
+  </data>
+  <data name="dgvcolUlinInterharmMarked.HeaderText" xml:space="preserve">
+    <value>Flagged</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIU1B.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIUavrAB.Name" xml:space="preserve">
+    <value>dgvcolUIUavrAB</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpI0.Name" xml:space="preserve">
+    <value>dgvcolPqpI0</value>
+  </data>
+  <data name="dgvUphHarm.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUII0C.Name" xml:space="preserve">
+    <value>dgvcolUII0C</value>
+  </data>
+  <data name="dgvcolUphHarmMarked.HeaderText" xml:space="preserve">
+    <value>Flagged</value>
+  </data>
+  <data name="&gt;&gt;tpPqp.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;dgvcolIInterharmMarked.Name" xml:space="preserve">
+    <value>dgvcolIInterharmMarked</value>
+  </data>
+  <data name="dgvUlinInterharm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;tpPower.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIIavrN.Name" xml:space="preserve">
+    <value>dgvcolUIIavrN</value>
+  </data>
+  <data name="dvgcolPqpDUrelCApos.HeaderText" xml:space="preserve">
+    <value>δUrel CA+, %</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIU1C.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIU0CA.Name" xml:space="preserve">
+    <value>dgvcolUIU0CA</value>
+  </data>
+  <data name="scMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>831, 712</value>
+  </data>
+  <data name="dgvUphHarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 631</value>
+  </data>
+  <data name="dgvcolPowerPsum.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIUrmsA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUII0A.Name" xml:space="preserve">
+    <value>dgvcolUII0A</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpAngleP1.Name" xml:space="preserve">
+    <value>dgvcolPqpAngleP1</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIIavrA.Name" xml:space="preserve">
+    <value>dgvcolUIIavrA</value>
+  </data>
+  <data name="dgvUlinInterharm.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="dgvcolPowerKpC.HeaderText" xml:space="preserve">
+    <value>PF C</value>
+  </data>
+  <data name="tpPower.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;tpPhAngles.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelArchiveInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 7</value>
+  </data>
+  <data name="&gt;&gt;tpUPhHarmonics.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;dgvcolAngU1cbI1c.Name" xml:space="preserve">
+    <value>dgvcolAngU1cbI1c</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpAngleP0.Name" xml:space="preserve">
+    <value>dgvcolPqpAngleP0</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIIrmsC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tcMain.Parent" xml:space="preserve">
+    <value>scMain.Panel2</value>
+  </data>
+  <data name="&gt;&gt;dgvcolAngU1bU1c.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvIInterharm.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dgvcolAngU1cU1a.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIUavrC.Name" xml:space="preserve">
+    <value>dgvcolUIUavrC</value>
+  </data>
+  <data name="dgvAngles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dgvAngles.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dgvcolAngTime.Name" xml:space="preserve">
+    <value>dgvcolAngTime</value>
+  </data>
+  <data name="dgvcolPqpI1.HeaderText" xml:space="preserve">
+    <value>I 1, A</value>
+  </data>
+  <data name="&gt;&gt;dgvUphInterharm.Name" xml:space="preserve">
+    <value>dgvUphInterharm</value>
+  </data>
+  <data name="dgvcolPqpI2.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="dgvUphInterharm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dgvcolUII0B.HeaderText" xml:space="preserve">
+    <value>I (0) B, A</value>
+  </data>
+  <data name="dgvcolUIUrmsBC.HeaderText" xml:space="preserve">
+    <value>U rms BC, V</value>
+  </data>
+  <data name="dgvcolUIU0CA.HeaderText" xml:space="preserve">
+    <value>U(0) CA, V</value>
+  </data>
+  <data name="dvgcolPqpDUAneg.HeaderText" xml:space="preserve">
+    <value>δU A-, V</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIU1A.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpUPhInterHarmonics.Name" xml:space="preserve">
+    <value>tpUPhInterHarmonics</value>
+  </data>
+  <data name="dgvIInterharm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 631</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrelApos.Name" xml:space="preserve">
+    <value>dvgcolPqpDUrelApos</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUBpos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolUIIrmsN.HeaderText" xml:space="preserve">
+    <value>I rms N, A</value>
+  </data>
+  <data name="dgvcolUIU1B.HeaderText" xml:space="preserve">
+    <value>U(1) B, V</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUBCneg.Name" xml:space="preserve">
+    <value>dvgcolPqpDUBCneg</value>
+  </data>
+  <data name="dvgcolPqpDUrel1CA.HeaderText" xml:space="preserve">
+    <value>δUrel(1) CA, %</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIIavrB.Name" xml:space="preserve">
+    <value>dgvcolUIIavrB</value>
+  </data>
+  <data name="&gt;&gt;dgvAngles.Parent" xml:space="preserve">
+    <value>tpPhAngles</value>
+  </data>
+  <data name="dgvcolPowerTime.HeaderText" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="dvgcolPqpDUrelBCpos.HeaderText" xml:space="preserve">
+    <value>δUrel BC+, %</value>
+  </data>
+  <data name="dgvcolPowerMarked.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="dgvPqp.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dgvcolUlinHarmTime.HeaderText" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIU1CA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpUPhInterHarmonics.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIUrmsAB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scMain.Panel1.Parent" xml:space="preserve">
+    <value>scMain</value>
+  </data>
+  <data name="dgvcolUIUavrAB.HeaderText" xml:space="preserve">
+    <value>U(av.r.) AB, V</value>
+  </data>
+  <data name="&gt;&gt;tpIHarmonisc.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUphInterharmMarked.Name" xml:space="preserve">
+    <value>dgvcolUphInterharmMarked</value>
+  </data>
+  <data name="&gt;&gt;dgvcolAngU1cI1c.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerQb.Name" xml:space="preserve">
+    <value>dgvcolPowerQb</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrelBCneg.Name" xml:space="preserve">
+    <value>dvgcolPqpDUrelBCneg</value>
+  </data>
+  <data name="dvgcolPqpDUrelBneg.HeaderText" xml:space="preserve">
+    <value>δUrel B-, %</value>
+  </data>
+  <data name="dgvcolPqpMarked.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUCAneg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolUphInterharmMarked.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUII1N.Name" xml:space="preserve">
+    <value>dgvcolUII1N</value>
+  </data>
+  <data name="dgvcolAngMarked.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpP2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUCpos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolUIU0AB.HeaderText" xml:space="preserve">
+    <value>U(0) AB, V</value>
+  </data>
+  <data name="dgvcolAngMarked.HeaderText" xml:space="preserve">
+    <value>Flagged</value>
+  </data>
+  <data name="&gt;&gt;dgvIInterharm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolPqpU0.HeaderText" xml:space="preserve">
+    <value>U 0, V</value>
+  </data>
+  <data name="tpPhAngles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 631</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUABpos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolUII1C.HeaderText" xml:space="preserve">
+    <value>I (1) C, A</value>
+  </data>
+  <data name="dgvcolPqpK0u.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUABneg.Name" xml:space="preserve">
+    <value>dvgcolPqpDUABneg</value>
+  </data>
+  <data name="dvgcolPqpDUCneg.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUlinHarmMarked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvUlinInterharm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 631</value>
+  </data>
+  <data name="dgvPower.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dgvUI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIU0AB.Name" xml:space="preserve">
+    <value>dgvcolUIU0AB</value>
+  </data>
+  <data name="dgvcolPqpU2.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="dgvcolAngU1bI1b.HeaderText" xml:space="preserve">
+    <value>&lt;U(1)B I(1)B, °</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrelCpos.Name" xml:space="preserve">
+    <value>dvgcolPqpDUrelCpos</value>
+  </data>
+  <data name="dvgcolPqpDUrelCpos.HeaderText" xml:space="preserve">
+    <value>δUrel C+, %</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrelCAneg.Name" xml:space="preserve">
+    <value>dvgcolPqpDUrelCAneg</value>
+  </data>
+  <data name="tpIHarmonisc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 631</value>
+  </data>
+  <data name="dgvcolPqpU1.HeaderText" xml:space="preserve">
+    <value>U 1, V</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerPsum.Name" xml:space="preserve">
+    <value>dgvcolPowerPsum</value>
+  </data>
+  <data name="dgvUI.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="dgvcolIInterharmTime.HeaderText" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="dgvcolPowerP1.HeaderText" xml:space="preserve">
+    <value>P 1, W</value>
+  </data>
+  <data name="tpUPhInterHarmonics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 631</value>
+  </data>
+  <data name="dgvcolIInterharmMarked.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUCneg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUApos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerP2.Name" xml:space="preserve">
+    <value>dgvcolPowerP2</value>
+  </data>
+  <data name="dgvcolPqpP2.HeaderText" xml:space="preserve">
+    <value>P 2, W</value>
+  </data>
+  <data name="dgvcolUIDatetime.HeaderText" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="dgvcolPowerQc.HeaderText" xml:space="preserve">
+    <value>Q C, var</value>
+  </data>
+  <data name="dgvcolPqpP1.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIU1AB.Name" xml:space="preserve">
+    <value>dgvcolUIU1AB</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUII1N.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIU1AB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvAngles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 631</value>
+  </data>
+  <data name="dgvPqp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 631</value>
+  </data>
+  <data name="dgvcolPowerMarked.HeaderText" xml:space="preserve">
+    <value>Flagged</value>
+  </data>
+  <data name="&gt;&gt;labelArchiveInfo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tpPower.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrelApos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvUphHarm.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpAngleP2.Name" xml:space="preserve">
+    <value>dgvcolPqpAngleP2</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerSc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIIrmsC.Name" xml:space="preserve">
+    <value>dgvcolUIIrmsC</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerKpA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolAngTime.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="dvgcolPqpDUABpos.HeaderText" xml:space="preserve">
+    <value>δU AB+, V</value>
+  </data>
+  <data name="dgvcolUII1A.HeaderText" xml:space="preserve">
+    <value>I (1) A, A</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIUavrBC.Name" xml:space="preserve">
+    <value>dgvcolUIUavrBC</value>
+  </data>
+  <data name="dgvcolIHarmMarked.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIIrmsN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIIrmsN.Name" xml:space="preserve">
+    <value>dgvcolUIIrmsN</value>
+  </data>
+  <data name="tpPqp.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIU0B.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIUavrA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolUIMarked.HeaderText" xml:space="preserve">
+    <value>Flagged</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIU0BC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scMain.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dgvIInterharm.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpP1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dvgcolPqpDUBCpos.HeaderText" xml:space="preserve">
+    <value>δU BC+, V</value>
+  </data>
+  <data name="&gt;&gt;dgvUphHarm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrelCAneg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolPowerSc.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="dvgcolPqpDUAneg.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;dgvUlinHarm.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerSsum.Name" xml:space="preserve">
+    <value>dgvcolPowerSsum</value>
+  </data>
+  <data name="tpULinInterHarmonics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 631</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIU0C.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIIavrC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dvgcolPqpDUApos.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="dgvcolAngU1cI1c.HeaderText" xml:space="preserve">
+    <value>&lt;U(1)C I(1)C, °</value>
+  </data>
+  <data name="dgvcolUII0N.HeaderText" xml:space="preserve">
+    <value>I (0) N, A</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpP0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrelABpos.Name" xml:space="preserve">
+    <value>dvgcolPqpDUrelABpos</value>
+  </data>
+  <data name="&gt;&gt;dgvcolAngU1aU1b.Name" xml:space="preserve">
+    <value>dgvcolAngU1aU1b</value>
+  </data>
+  <data name="&gt;&gt;tpUI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpPhAngles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolUIUrmsAB.HeaderText" xml:space="preserve">
+    <value>U rmc AB, V</value>
+  </data>
+  <data name="&gt;&gt;dgvAngles.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dgvPower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>817, 625</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIUrmsBC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUphInterharmTime.Name" xml:space="preserve">
+    <value>dgvcolUphInterharmTime</value>
+  </data>
+  <data name="&gt;&gt;tpUPhHarmonics.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvUI.Parent" xml:space="preserve">
+    <value>tpUI</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerKpB.Name" xml:space="preserve">
+    <value>dgvcolPowerKpB</value>
+  </data>
+  <data name="&gt;&gt;tpULinInterHarmonics.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerSa.Name" xml:space="preserve">
+    <value>dgvcolPowerSa</value>
+  </data>
+  <data name="&gt;&gt;dgvIHarm.Parent" xml:space="preserve">
+    <value>tpIHarmonisc</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIUrmsCA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIIavrC.Name" xml:space="preserve">
+    <value>dgvcolUIIavrC</value>
+  </data>
+  <data name="dgvcolPqpP0.HeaderText" xml:space="preserve">
+    <value>P 0, W</value>
+  </data>
+  <data name="dgvcolUphInterharmMarked.HeaderText" xml:space="preserve">
+    <value>Flagged</value>
+  </data>
+  <data name="dgvUphInterharm.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tpUPhHarmonics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIUavrB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUBCpos.Name" xml:space="preserve">
+    <value>dvgcolPqpDUBCpos</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIUrmsAB.Name" xml:space="preserve">
+    <value>dgvcolUIUrmsAB</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIIavrN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIU0A.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolAngU1abI1a.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrelCpos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelArchiveInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>820, 35</value>
+  </data>
+  <data name="tpUI.Text" xml:space="preserve">
+    <value>Voltage and Current</value>
+  </data>
+  <data name="dgvcolAngU1bI1b.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUBCpos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvIHarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 631</value>
+  </data>
+  <data name="dvgcolPqpDUrel1A.HeaderText" xml:space="preserve">
+    <value>δUrel(1) A, %</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrel1BC.Name" xml:space="preserve">
+    <value>dvgcolPqpDUrel1BC</value>
+  </data>
+  <data name="dgvcolPowerTime.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>831, 712</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIUavrBC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerTanP.Name" xml:space="preserve">
+    <value>dgvcolPowerTanP</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="dgvcolPowerPsum.HeaderText" xml:space="preserve">
+    <value>P Σ, W</value>
+  </data>
+  <data name="dgvcolUIUavrB.HeaderText" xml:space="preserve">
+    <value>U(av.r.) B, V</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIU0B.Name" xml:space="preserve">
+    <value>dgvcolUIU0B</value>
+  </data>
+  <data name="&gt;&gt;dgvPqp.Parent" xml:space="preserve">
+    <value>tpPqp</value>
+  </data>
+  <data name="dgvcolPqpI0.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpU2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fileSystemWatcher1.Name" xml:space="preserve">
+    <value>fileSystemWatcher1</value>
+  </data>
+  <data name="dgvcolUIU1AB.HeaderText" xml:space="preserve">
+    <value>U(1) AB, V</value>
+  </data>
+  <data name="dgvcolUIU1A.HeaderText" xml:space="preserve">
+    <value>U(1) A, V</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIUavrCA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIUrmsBC.Name" xml:space="preserve">
+    <value>dgvcolUIUrmsBC</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerP2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerPb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="scMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dgvcolPqpMarked.HeaderText" xml:space="preserve">
+    <value>Flagged</value>
+  </data>
+  <data name="dgvcolUphHarmTime.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;tpULinHarmonics.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIMarked.Name" xml:space="preserve">
+    <value>dgvcolUIMarked</value>
+  </data>
+  <data name="&gt;&gt;dgvcolAngU1abU1cb.Name" xml:space="preserve">
+    <value>dgvcolAngU1abU1cb</value>
+  </data>
+  <data name="dgvcolUIIrmsB.HeaderText" xml:space="preserve">
+    <value>I rms B, A</value>
+  </data>
+  <data name="dgvPower.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="dgvcolUlinInterharmTime.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="dgvcolPqpP1.HeaderText" xml:space="preserve">
+    <value>P 1, W</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIUrmsCA.Name" xml:space="preserve">
+    <value>dgvcolUIUrmsCA</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUphHarmTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrelAneg.Name" xml:space="preserve">
+    <value>dvgcolPqpDUrelAneg</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUlinInterharmMarked.Name" xml:space="preserve">
+    <value>dgvcolUlinInterharmMarked</value>
+  </data>
+  <data name="dvgcolPqpDUBneg.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="dgvcolAngU1aU1b.HeaderText" xml:space="preserve">
+    <value>&lt;U(1)A U(1)B, °</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerSb.Name" xml:space="preserve">
+    <value>dgvcolPowerSb</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrel1CA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpI2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolUphHarmTime.HeaderText" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="&gt;&gt;dgvcolAngU1cbI1c.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scMain.Panel2.Name" xml:space="preserve">
+    <value>scMain.Panel2</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpAngleP0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolAngU1abI1a.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpULinInterHarmonics.Name" xml:space="preserve">
+    <value>tpULinInterHarmonics</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerPc.Name" xml:space="preserve">
+    <value>dgvcolPowerPc</value>
+  </data>
+  <data name="dvgcolPqpDUBneg.HeaderText" xml:space="preserve">
+    <value>δU B-, V</value>
+  </data>
+  <data name="tpPower.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIU0BC.Name" xml:space="preserve">
+    <value>dgvcolUIU0BC</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIUrmsB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpIHarmonisc.Name" xml:space="preserve">
+    <value>tpIHarmonisc</value>
+  </data>
+  <data name="tpIHarmonisc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="dgvcolAngU1bU1c.HeaderText" xml:space="preserve">
+    <value>&lt;U(1)B U(1)C, °</value>
+  </data>
+  <data name="dgvIInterharm.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="dgvcolPqpI1.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="dgvcolPowerTanP.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="dgvcolUII1B.HeaderText" xml:space="preserve">
+    <value>I (1) B, A</value>
+  </data>
+  <data name="tpIHarmonisc.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;scMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dgvcolPowerSb.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;scMain.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dvgcolPqpDUCpos.HeaderText" xml:space="preserve">
+    <value>δU C+, V</value>
+  </data>
+  <data name="dgvcolAngU1cI1c.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="dgvUI.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUII1C.Name" xml:space="preserve">
+    <value>dgvcolUII1C</value>
+  </data>
+  <data name="scMain.IsSplitterFixed" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dgvcolUIDatetime.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUBCneg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvUlinHarm.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIU1BC.Name" xml:space="preserve">
+    <value>dgvcolUIU1BC</value>
+  </data>
+  <data name="dgvcolAngU1aI1a.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="&gt;&gt;dgvUlinInterharm.Name" xml:space="preserve">
+    <value>dgvUlinInterharm</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerPa.Name" xml:space="preserve">
+    <value>dgvcolPowerPa</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUII1B.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolAngU1abU1cb.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUII1A.Name" xml:space="preserve">
+    <value>dgvcolUII1A</value>
+  </data>
+  <data name="dvgcolPqpDUrel1BC.HeaderText" xml:space="preserve">
+    <value>δUrel(1) BC, %</value>
+  </data>
+  <data name="dgvcolPowerQsum.HeaderText" xml:space="preserve">
+    <value>Q Σ, var</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUlinHarmTime.Name" xml:space="preserve">
+    <value>dgvcolUlinHarmTime</value>
+  </data>
+  <data name="dgvcolUIU1C.HeaderText" xml:space="preserve">
+    <value>U(1) C, V</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrel1AB.Name" xml:space="preserve">
+    <value>dvgcolPqpDUrel1AB</value>
+  </data>
+  <data name="&gt;&gt;tpUPhInterHarmonics.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpU1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvPqp.Name" xml:space="preserve">
+    <value>dgvPqp</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUCApos.Name" xml:space="preserve">
+    <value>dvgcolPqpDUCApos</value>
+  </data>
+  <data name="dvgcolPqpDUrel1CA.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="&gt;&gt;dgvUphHarm.Parent" xml:space="preserve">
+    <value>tpUPhHarmonics</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrelAneg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolIInterharmMarked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUII1C.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUII0N.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerMarked.Name" xml:space="preserve">
+    <value>dgvcolPowerMarked</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpK2u.Name" xml:space="preserve">
+    <value>dgvcolPqpK2u</value>
+  </data>
+  <data name="dvgcolPqpDUrel1Y.HeaderText" xml:space="preserve">
+    <value>δUrel S, %</value>
+  </data>
+  <data name="dgvcolAngU1cbI1c.HeaderText" xml:space="preserve">
+    <value>&lt;U(1)CB I(1)C, °</value>
+  </data>
+  <data name="dgvcolUIUrmsB.HeaderText" xml:space="preserve">
+    <value>U rms B, V</value>
+  </data>
+  <data name="&gt;&gt;dgvUI.Name" xml:space="preserve">
+    <value>dgvUI</value>
+  </data>
+  <data name="&gt;&gt;dgvcolAngU1aU1b.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpU0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvPower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpU1.Name" xml:space="preserve">
+    <value>dgvcolPqpU1</value>
+  </data>
+  <data name="&gt;&gt;tpIInterHarmonisc.Name" xml:space="preserve">
+    <value>tpIInterHarmonisc</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerKpC.Name" xml:space="preserve">
+    <value>dgvcolPowerKpC</value>
+  </data>
+  <data name="tpUI.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUphHarmTime.Name" xml:space="preserve">
+    <value>dgvcolUphHarmTime</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpK2u.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrelBCpos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolIHarmMarked.HeaderText" xml:space="preserve">
+    <value>Flagged</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrelCneg.Name" xml:space="preserve">
+    <value>dvgcolPqpDUrelCneg</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpI1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerKpSum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolPqpTime.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="dgvcolPowerPb.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="dgvcolPowerPb.HeaderText" xml:space="preserve">
+    <value>P B, W</value>
+  </data>
+  <data name="tpUPhHarmonics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 631</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIU1BC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUphInterharmMarked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerQa.Name" xml:space="preserve">
+    <value>dgvcolPowerQa</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIU0AB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpI0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dvgcolPqpDUCneg.HeaderText" xml:space="preserve">
+    <value>δU C-, V</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUII1A.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvPqp.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="dgvcolPowerPc.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpAngleP1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fileSystemWatcher1.Type" xml:space="preserve">
+    <value>System.IO.FileSystemWatcher, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolPqpU1.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerPsum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolPowerSb.HeaderText" xml:space="preserve">
+    <value>S B, VA</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIU0CA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvUphHarm.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tpPqp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 631</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUBneg.Name" xml:space="preserve">
+    <value>dvgcolPqpDUBneg</value>
+  </data>
+  <data name="dgvcolPowerKpSum.HeaderText" xml:space="preserve">
+    <value>PF Σ</value>
+  </data>
+  <data name="dgvcolUlinHarmMarked.HeaderText" xml:space="preserve">
+    <value>Flagged</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrelCApos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tcMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dgvUI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>817, 625</value>
+  </data>
+  <data name="&gt;&gt;dgvIInterharm.Parent" xml:space="preserve">
+    <value>tpIInterHarmonisc</value>
+  </data>
+  <data name="dgvAngles.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tpPower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="dgvcolPowerSa.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIIrmsB.Name" xml:space="preserve">
+    <value>dgvcolUIIrmsB</value>
+  </data>
+  <data name="&gt;&gt;dgvcolIHarmTime.Name" xml:space="preserve">
+    <value>dgvcolIHarmTime</value>
+  </data>
+  <data name="dgvcolPowerSsum.HeaderText" xml:space="preserve">
+    <value>S Σ, VA</value>
+  </data>
+  <data name="dgvcolUIU0C.HeaderText" xml:space="preserve">
+    <value>U(0) C, V</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIIavrA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUlinInterharmTime.Name" xml:space="preserve">
+    <value>dgvcolUlinInterharmTime</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUCneg.Name" xml:space="preserve">
+    <value>dvgcolPqpDUCneg</value>
+  </data>
+  <data name="dgvcolUIIavrN.HeaderText" xml:space="preserve">
+    <value>I (av.r.) N, A</value>
+  </data>
+  <data name="&gt;&gt;tpPqp.Name" xml:space="preserve">
+    <value>tpPqp</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpAngleP2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvIHarm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvUphInterharm.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpU2.Name" xml:space="preserve">
+    <value>dgvcolPqpU2</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrel1B.Name" xml:space="preserve">
+    <value>dvgcolPqpDUrel1B</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUABneg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUlinHarmMarked.Name" xml:space="preserve">
+    <value>dgvcolUlinHarmMarked</value>
+  </data>
+  <data name="&gt;&gt;dgvcolAngU1aI1a.Name" xml:space="preserve">
+    <value>dgvcolAngU1aI1a</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUlinInterharmTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dvgcolPqpDUBCneg.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="dgvcolPqpP2.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpK0u.Name" xml:space="preserve">
+    <value>dgvcolPqpK0u</value>
+  </data>
+  <data name="&gt;&gt;dgvcolAngU1bI1b.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolPowerQa.HeaderText" xml:space="preserve">
+    <value>Q A, var</value>
+  </data>
+  <data name="&gt;&gt;dgvIHarm.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgvUphHarm.Name" xml:space="preserve">
+    <value>dgvUphHarm</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerKpC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrel1C.Name" xml:space="preserve">
+    <value>dvgcolPqpDUrel1C</value>
+  </data>
+  <data name="&gt;&gt;dgvAngles.Name" xml:space="preserve">
+    <value>dgvAngles</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerSsum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tpULinInterHarmonics.Text" xml:space="preserve">
+    <value>Voltage Lin Interharm</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrel1C.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpK0u.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpULinHarmonics.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerPa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scMain.Panel1.Name" xml:space="preserve">
+    <value>scMain.Panel1</value>
+  </data>
+  <data name="dgvcolUIIavrB.HeaderText" xml:space="preserve">
+    <value>I (av.r.) B, A</value>
+  </data>
+  <data name="dgvIHarm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dgvcolUIUrmsC.HeaderText" xml:space="preserve">
+    <value>U rms C, V</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIUavrCA.Name" xml:space="preserve">
+    <value>dgvcolUIUavrCA</value>
+  </data>
+  <data name="tcMain.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUphHarmMarked.Name" xml:space="preserve">
+    <value>dgvcolUphHarmMarked</value>
+  </data>
+  <data name="tpUPhHarmonics.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelArchiveInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dgvcolUIUrmsCA.HeaderText" xml:space="preserve">
+    <value>U rms CA, V</value>
+  </data>
+  <data name="dgvcolPqpK0u.HeaderText" xml:space="preserve">
+    <value>K0U, %</value>
+  </data>
+  <data name="dgvcolUIU0A.HeaderText" xml:space="preserve">
+    <value>U(0) A, V</value>
+  </data>
+  <data name="dvgcolPqpDUrelABpos.HeaderText" xml:space="preserve">
+    <value>δUrel AB+, %</value>
+  </data>
+  <data name="dgvcolPqpU0.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="dgvcolPowerPa.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIIavrB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUBneg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerQb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpIHarmonisc.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tpPower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 631</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpMarked.Name" xml:space="preserve">
+    <value>dgvcolPqpMarked</value>
+  </data>
+  <data name="dvgcolPqpDUrel1AB.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIIrmsA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tpPower.Text" xml:space="preserve">
+    <value>Power</value>
+  </data>
+  <data name="tpUPhInterHarmonics.Text" xml:space="preserve">
+    <value>Voltage Ph Interharm</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerTanP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolAngU1abI1a.HeaderText" xml:space="preserve">
+    <value>&lt;U(1)AB I(1)A, °</value>
+  </data>
+  <data name="&gt;&gt;dgvcolIHarmTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvUlinInterharm.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dvgcolPqpDUBpos.HeaderText" xml:space="preserve">
+    <value>δU B+, V</value>
+  </data>
+  <data name="tpPqp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrel1BC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tpUPhInterHarmonics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="labelArchiveInfo.Text" xml:space="preserve">
+    <value>Time:</value>
+  </data>
+  <data name="&gt;&gt;dgvUlinHarm.Name" xml:space="preserve">
+    <value>dgvUlinHarm</value>
+  </data>
+  <data name="&gt;&gt;dgvPower.Name" xml:space="preserve">
+    <value>dgvPower</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerQc.Name" xml:space="preserve">
+    <value>dgvcolPowerQc</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrelBpos.Name" xml:space="preserve">
+    <value>dvgcolPqpDUrelBpos</value>
+  </data>
+  <data name="tpUPhHarmonics.Text" xml:space="preserve">
+    <value>Voltage Ph Harmonics</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUlinInterharmMarked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpULinHarmonics.Name" xml:space="preserve">
+    <value>tpULinHarmonics</value>
+  </data>
+  <data name="tpUI.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="labelArchiveInfo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tpUPhInterHarmonics.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="tpIInterHarmonisc.Text" xml:space="preserve">
+    <value>Current Interharmonics</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpU0.Name" xml:space="preserve">
+    <value>dgvcolPqpU0</value>
+  </data>
+  <data name="&gt;&gt;dgvPower.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrelBCneg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolIInterharmTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUII0C.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tcMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dvgcolPqpDUCAneg.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIIrmsB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tcMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>831, 657</value>
+  </data>
+  <data name="dgvcolPowerKpC.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="tpIInterHarmonisc.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="dgvcolPowerTanP.HeaderText" xml:space="preserve">
+    <value>tan φ</value>
+  </data>
+  <data name="dvgcolPqpDUBpos.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;dgvcolIInterharmTime.Name" xml:space="preserve">
+    <value>dgvcolIInterharmTime</value>
+  </data>
+  <data name="&gt;&gt;tpPhAngles.Name" xml:space="preserve">
+    <value>tpPhAngles</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrelABneg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrel1B.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerTime.Name" xml:space="preserve">
+    <value>dgvcolPowerTime</value>
+  </data>
+  <data name="dgvcolPqpAngleP0.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="dgvcolUII1N.HeaderText" xml:space="preserve">
+    <value>I (1) N, A</value>
+  </data>
+  <data name="dgvcolIInterharmMarked.HeaderText" xml:space="preserve">
+    <value>Flagged</value>
+  </data>
+  <data name="dgvcolPowerQb.HeaderText" xml:space="preserve">
+    <value>Q B, var</value>
+  </data>
+  <data name="dgvIInterharm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerPc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolAngU1abU1cb.HeaderText" xml:space="preserve">
+    <value>&lt;U(1)AB U(1)CB, °</value>
+  </data>
+  <data name="dgvcolPqpU2.HeaderText" xml:space="preserve">
+    <value>U 2, V</value>
+  </data>
+  <data name="scMain.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;labelArchiveInfo.Parent" xml:space="preserve">
+    <value>scMain.Panel1</value>
+  </data>
+  <data name="dgvcolPowerKpA.HeaderText" xml:space="preserve">
+    <value>PF A</value>
+  </data>
+  <data name="dvgcolPqpDUCAneg.HeaderText" xml:space="preserve">
+    <value>δU CA-, V</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUAneg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvPower.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dgvPower.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolUphHarmMarked.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerKpA.Name" xml:space="preserve">
+    <value>dgvcolPowerKpA</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUII0A.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dvgcolPqpDUCpos.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="dgvcolPqpK2u.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="tpPqp.Text" xml:space="preserve">
+    <value>PQP</value>
+  </data>
+  <data name="dvgcolPqpDUrel1B.HeaderText" xml:space="preserve">
+    <value>δUrel(1) B, %</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrel1A.Name" xml:space="preserve">
+    <value>dvgcolPqpDUrel1A</value>
+  </data>
+  <data name="&gt;&gt;labelArchiveInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvUI.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dgvcolUlinHarmTime.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="tpULinHarmonics.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="dgvUlinInterharm.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIDatetime.Name" xml:space="preserve">
+    <value>dgvcolUIDatetime</value>
+  </data>
+  <data name="&gt;&gt;labelArchiveInfo.Name" xml:space="preserve">
+    <value>labelArchiveInfo</value>
+  </data>
+  <data name="dgvcolPowerQb.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="dgvUphHarm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dgvcolUlinInterharmMarked.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIUrmsB.Name" xml:space="preserve">
+    <value>dgvcolUIUrmsB</value>
+  </data>
+  <data name="dvgcolPqpDUCApos.HeaderText" xml:space="preserve">
+    <value>δU CA+, V</value>
+  </data>
+  <data name="dgvcolPowerPa.HeaderText" xml:space="preserve">
+    <value>P A, W</value>
+  </data>
+  <data name="&gt;&gt;dgvPqp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dgvPqp.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tpULinHarmonics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;tpUPhHarmonics.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="dvgcolPqpDUrelBpos.HeaderText" xml:space="preserve">
+    <value>δUrel B+, %</value>
+  </data>
+  <data name="dgvAngles.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolPowerQc.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUphHarmMarked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerKpSum.Name" xml:space="preserve">
+    <value>dgvcolPowerKpSum</value>
+  </data>
+  <data name="&gt;&gt;dgvcolAngU1cU1a.Name" xml:space="preserve">
+    <value>dgvcolAngU1cU1a</value>
+  </data>
+  <data name="&gt;&gt;tpPhAngles.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrelBpos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolPqpAngleP1.HeaderText" xml:space="preserve">
+    <value>&lt;P1, °</value>
+  </data>
+  <data name="&gt;&gt;dgvUlinHarm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dvgcolPqpDUrelCAneg.HeaderText" xml:space="preserve">
+    <value>δUrel CA-, %</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIU0A.Name" xml:space="preserve">
+    <value>dgvcolUIU0A</value>
+  </data>
+  <data name="&gt;&gt;scMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolAngU1abU1cb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolIHarmMarked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrelCneg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpMarked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tcMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUII1B.Name" xml:space="preserve">
+    <value>dgvcolUII1B</value>
+  </data>
+  <data name="dvgcolPqpDUBCneg.HeaderText" xml:space="preserve">
+    <value>δU BC-, V</value>
+  </data>
+  <data name="dgvPqp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tpULinInterHarmonics.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;dgvUlinHarm.Parent" xml:space="preserve">
+    <value>tpULinHarmonics</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIUavrAB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolPqpK2u.HeaderText" xml:space="preserve">
+    <value>K2U, %</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrelABpos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolPowerKpB.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerQsum.Name" xml:space="preserve">
+    <value>dgvcolPowerQsum</value>
+  </data>
+  <data name="&gt;&gt;tpPqp.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tpIHarmonisc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolAngU1cI1c.Name" xml:space="preserve">
+    <value>dgvcolAngU1cI1c</value>
+  </data>
+  <data name="tpPhAngles.Text" xml:space="preserve">
+    <value>Ph. Angles</value>
+  </data>
+  <data name="dgvcolUIU1BC.HeaderText" xml:space="preserve">
+    <value>U(1) BC, V</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpP2.Name" xml:space="preserve">
+    <value>dgvcolPqpP2</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIUavrC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dvgcolPqpDUrelCneg.HeaderText" xml:space="preserve">
+    <value>δUrel C-, %</value>
+  </data>
+  <data name="dgvcolPqpAngleP2.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;dgvUlinInterharm.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dvgcolPqpDUrel1AB.HeaderText" xml:space="preserve">
+    <value>δUrel(1) AB, %</value>
+  </data>
+  <data name="dgvcolUIUavrC.HeaderText" xml:space="preserve">
+    <value>U(av.r.) C, V</value>
+  </data>
+  <data name="tpIInterHarmonisc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 631</value>
+  </data>
+  <data name="dgvcolPqpP0.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;tcMain.Name" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;tcMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgvIInterharm.Name" xml:space="preserve">
+    <value>dgvIInterharm</value>
+  </data>
+  <data name="&gt;&gt;tpUI.Name" xml:space="preserve">
+    <value>tpUI</value>
+  </data>
+  <data name="&gt;&gt;tpUPhHarmonics.Name" xml:space="preserve">
+    <value>tpUPhHarmonics</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerQa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUphInterharmTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolAngU1cU1a.HeaderText" xml:space="preserve">
+    <value>&lt;U(1)C U(1)A, °</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIU1CA.Name" xml:space="preserve">
+    <value>dgvcolUIU1CA</value>
+  </data>
+  <data name="scMain.SplitterDistance" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIUrmsA.Name" xml:space="preserve">
+    <value>dgvcolUIUrmsA</value>
+  </data>
+  <data name="&gt;&gt;tpUPhInterHarmonics.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="dgvcolUlinInterharmTime.HeaderText" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerSb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolPqpAngleP1.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;dgvUlinInterharm.Parent" xml:space="preserve">
+    <value>tpULinInterHarmonics</value>
+  </data>
+  <data name="dgvIHarm.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tpUI.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="dvgcolPqpDUrelBCneg.HeaderText" xml:space="preserve">
+    <value>δUrel BC-, %</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUBpos.Name" xml:space="preserve">
+    <value>dvgcolPqpDUBpos</value>
+  </data>
+  <data name="dgvcolPowerSa.HeaderText" xml:space="preserve">
+    <value>S A, VA</value>
+  </data>
+  <data name="dgvcolUIUavrCA.HeaderText" xml:space="preserve">
+    <value>U(av.r.) CA, V</value>
+  </data>
+  <data name="dgvcolUII0C.HeaderText" xml:space="preserve">
+    <value>I (0) C, A</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIMarked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvAngles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvIInterharm.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="dgvIHarm.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrel1Y.Name" xml:space="preserve">
+    <value>dvgcolPqpDUrel1Y</value>
+  </data>
+  <data name="&gt;&gt;dgvUlinInterharm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolPowerQa.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="dgvcolUIU0B.HeaderText" xml:space="preserve">
+    <value>U(0) B, V</value>
+  </data>
+  <data name="dgvcolUIUavrA.HeaderText" xml:space="preserve">
+    <value>U(av.r.) A, V</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUII0N.Name" xml:space="preserve">
+    <value>dgvcolUII0N</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIUrmsC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrel1CA.Name" xml:space="preserve">
+    <value>dvgcolPqpDUrel1CA</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUIDatetime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolUlinHarmTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvUlinHarm.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dgvcolAngTime.HeaderText" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="dgvcolPqpTime.HeaderText" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="&gt;&gt;scMain.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrelABneg.Name" xml:space="preserve">
+    <value>dvgcolPqpDUrelABneg</value>
+  </data>
+  <data name="&gt;&gt;scMain.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPqpP1.Name" xml:space="preserve">
+    <value>dgvcolPqpP1</value>
+  </data>
+  <data name="&gt;&gt;dvgcolPqpDUrel1A.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvcolPowerSc.Name" xml:space="preserve">
+    <value>dgvcolPowerSc</value>
+  </data>
+  <data name="tpPhAngles.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dgvUI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvcolUIIavrA.HeaderText" xml:space="preserve">
+    <value>I (av.r.) A, A</value>
+  </data>
+  <data name="dgvcolIHarmTime.HeaderText" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <metadata name="dvgcolPqpDUCAneg.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPowerSc.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPqpAngleP0.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUrel1CA.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUCneg.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUrel1Y.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIU1A.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUrelBCneg.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUrelAneg.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIIavrN.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPowerPsum.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPqpP0.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPqpK0u.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIU0C.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUBpos.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPowerQc.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUrelApos.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolIHarmMarked.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUrelBneg.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUlinInterharmMarked.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPqpAngleP1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIIrmsB.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUABneg.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPowerMarked.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUBneg.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPowerKpSum.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUrelCApos.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIU1AB.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUrel1A.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIU0B.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPqpK2u.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUlinHarmMarked.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUII0C.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUrelABpos.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUrelCpos.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIIrmsA.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUrelBpos.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUrel1B.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolAngMarked.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUII1N.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIUavrAB.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUrel1AB.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIU1B.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUII1A.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIIrmsN.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUphHarmMarked.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUCpos.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPowerQb.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPowerKpA.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPqpI2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolAngU1aI1a.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIDatetime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUII0N.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIUavrC.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIIavrC.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUII0A.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIUrmsC.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPowerSb.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUrelABneg.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolAngU1bU1c.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIIavrB.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolAngU1cU1a.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPowerP2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPqpTime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIU0BC.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIUrmsA.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolAngU1abI1a.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPowerKpB.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPowerSsum.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolAngU1bI1b.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolAngU1cI1c.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPqpMarked.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPqpU0.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUrel1C.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPowerPc.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIUavrCA.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUAneg.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="fileSystemWatcher1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="dgvcolUIMarked.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPqpU1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIUavrB.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUApos.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUII1B.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIIrmsC.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUBCneg.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPqpI1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUABpos.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUphHarmTime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUrelCneg.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPowerSa.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPowerQsum.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIUrmsCA.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPqpI0.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIU0CA.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUBCpos.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIU1C.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUphInterharmTime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPqpU2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUrelBCpos.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUlinInterharmTime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolIInterharmMarked.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIUrmsAB.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPowerP1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIUrmsB.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPowerPb.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPowerTime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIU1CA.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolIHarmTime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIU0A.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPqpAngleP2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUCApos.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPqpP1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPowerPa.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUrelCAneg.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolAngTime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPowerKpC.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUphInterharmMarked.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPqpP2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolIInterharmTime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolAngU1aU1b.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUlinHarmTime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolAngU1cbI1c.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUII0B.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIUavrA.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIIavrA.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIU0AB.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dvgcolPqpDUrel1BC.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPowerTanP.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUII1C.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIU1BC.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolAngU1abU1cb.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIUrmsBC.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolUIUavrBC.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvcolPowerQa.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

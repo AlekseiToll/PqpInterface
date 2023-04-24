@@ -1,0 +1,742 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;tpbUsb.Type" xml:space="preserve">
+    <value>PulseButtonLib.PulseButton, PulseButton, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tpbHelp.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;cmiExit.Name" xml:space="preserve">
+    <value>cmiExit</value>
+  </data>
+  <data name="tpbUsb.Text" xml:space="preserve">
+    <value>U S B</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmsMenuService.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 48</value>
+  </data>
+  <data name="&gt;&gt;cmiReloadArchiveInfoPanel.Name" xml:space="preserve">
+    <value>cmiReloadArchiveInfoPanel</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tpbFile.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="tsProgressReading.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 16</value>
+  </data>
+  <data name="tpbFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 40</value>
+  </data>
+  <data name="&gt;&gt;cmiReloadArchiveInfoPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dockPanelMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>963, 651</value>
+  </data>
+  <data name="&gt;&gt;tpbRussian.Name" xml:space="preserve">
+    <value>tpbRussian</value>
+  </data>
+  <data name="&gt;&gt;tpbInternet.Name" xml:space="preserve">
+    <value>tpbInternet</value>
+  </data>
+  <data name="cmiLoadFromDevice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="tpbRussian.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 40</value>
+  </data>
+  <data name="tpbWindow.Text" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="tpbFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dockPanelMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;tpbUsb.Name" xml:space="preserve">
+    <value>tpbUsb</value>
+  </data>
+  <data name="dockPanelMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="cmiTileVertical.Text" xml:space="preserve">
+    <value>Tile Vertical</value>
+  </data>
+  <data name="tpbEnglish.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 40</value>
+  </data>
+  <data name="&gt;&gt;tpbHelp.Name" xml:space="preserve">
+    <value>tpbHelp</value>
+  </data>
+  <data name="statusStrip.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="tpbUsb.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="tpbWindow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 0</value>
+  </data>
+  <data name="tpbService.Text" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="tsddbtnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="tpbRussian.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;tsddbtnCancel.Name" xml:space="preserve">
+    <value>tsddbtnCancel</value>
+  </data>
+  <data name="&gt;&gt;dockPanelMain.Name" xml:space="preserve">
+    <value>dockPanelMain</value>
+  </data>
+  <data name="cmiReloadArchiveInfoPanel.Text" xml:space="preserve">
+    <value>Reload Archive Info Panel</value>
+  </data>
+  <data name="tpbEnglish.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="tpbHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 0</value>
+  </data>
+  <data name="tsddbtnCancel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsAAAA7AAWrWiQkAAAIISURBVDhPpZP7S1NxGMbPPxKaXVUkMEq8IpKUCoY/hGgI
+        ymqkDYYXcCjDZOANURSjCNGFQUTsl4GXVMxKk62YU4fXQpaIlygHQxBRH8/zwvyaIAYe+HLgnPN8nue9
+        HA3nvDTq63oW/jm13XOwvPTB3DYFY5MH+bXfcN8ygfTSMSSXfESicQDxBqdYHwH29g9w2tnZ3UcguIvN
+        rR3417exuBJE5N1n/wfwLgXEOc38Bc6xNRHb+/y4nm49G0Bnit2zf9H6bkliE/jKuYxrd6oVgDWfjB+K
+        TWeKMyrGEVfowITvD9re/9ABVQrAhh0HHK+ZselMMaN/mvwtDb+aVqkA7HYIwIj3ysfluPTorJnP6Ezx
+        oHsD1s5ZXEktUwCOioB5f1CEPR9+wTG6iuiserTo8dkwng7HT/R+XUPF8xlcTjErAOdMcW6NW8STiwG8
+        7vej8oUPN/PsEv3t8Ao0TZP3T1u8uJRkUgAuSYHtO97oLxmXd5t9Ho8aPTK+GzntqNfrLm2fFoihwYOI
+        xGIF4KjoGBLzY1OrF9k6OOFxnwDC4wxIMX1G0pMhgVyMNyoA13PAtS7OrJk1PrC69LUdQWxuF6IybHrX
+        LRI7JrtZdoDAo1XmbjMyD+tjSXxGcXRmnYg5ttD9QuxDhN0uUgDOmbvNTpPOJaGAo2K36cyaGZvOFIfd
+        KlSA8/zRh9ABIDUG+1JpAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>EtPQP-A</value>
+  </data>
+  <data name="toolStripMain.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="tsddbtnCancel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tpbWindow.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dockPanelMain.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="tpbService.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;tpbRussian.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tpbHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 40</value>
+  </data>
+  <data name="cmiReloadArchiveInfoPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 22</value>
+  </data>
+  <data name="cmiAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEACACoCAAAFgAAACgAAAAgAAAAQAAAAAEACAAAAAAAAAQAAAAAAAAAAAAAAAEAAAAB
+        AAAAAAAACAgAAAgICAAQEAgAEBAQABkZEAAZGRkAISEhACkpKQAxMSkAMTExADo6MQA6OjoAQkI6AEJC
+        QgBKSkIASkpKAFJSSgBSUlIAWlpSAFpaWgBjY1oAY2NjAGtrYwBra2sAc3NrAHNzcwB7e3sAhIR7AAAA
+        /wAICP8AEBD/ACEh/wApKf8AOjr/AEJC/wBra/8Ac3P/AHt7/wCEhIQAjIyEAIyMjACUlJQAnJyUAJyc
+        nAClpZwAnJylAKWlpQCtraUAra2tALW1rQC1tbUAtbW9AL29vQDFxb0AjIz/AJSU/wCcnP8ApaX/AK2t
+        /wC1tf8Avb3/AMXFxQDFxc4Azs7OANbW1gDe3t4A3t7mAMXF9wDOzvcAxcX/AM7O/wDW1v8A3t7/AObm
+        5gDv7+8A5ub/AO/v/wD39/cA9/f/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD///8AAAAAAAAAAAAAAEsxFg4IBwYIDBYvSgAAAAAAAAAAAAAAAAAAAAAAAAAYBgAAAAAAAAAAAAAE
+        FkAAAAAAAAAAAAAAAAAAAAAA/yoAAAAAAAAAAAAAAAAAAhoAAAAAAAAAAAAAAABCLP///zENHDZCSkpC
+        PigLAAAAAApBAAAAAAAAAAAAQQcAG/////////////////8/EQAAAAY+AAAAAAAAAEoHAAAAMP//OCFE
+        NA4OL/8mJkz/LwIAAAZBAAAAAAAADgAAAAAAMv89HUQsAAACS00dHzn/QAQAAAoAAAAAACkAAAIYAAAA
+        Mv88RS4AAAAY/zgdHST/QQQAABoAAABCBAAAMf8vAAAAMv//KgAAAABBTyAdHSX/NQAAAEEAABsAABH/
+        Tf8vAAAAM/8qAAAAAAv/PR0dHTv/FwAAFABOBgAAQE8gOP8tAAAALywAAAAAADP/Ix0dHk1DAQAESjUA
+        AA3/Ox0dOP8vAAAACAAADAAABk5JHR0dN/8TAAAvGgAAK/8iHR0dOf8tAAAAAAAsEAAAKP8lHR0g/zEA
+        ABYQAABBTB0dHR0dOP8tAAAAADNCAAACSk0fHR1ISgAADAoAAks9HR0dHR0dOf8vAAAAMf8nAAAS/zgd
+        HTtOBAAHBwAETj0dHR0dHR0dOf8wGRlA/04FAABATyEdOv8GAAYHAANOPR0dHR0dHR0dOP///////zAA
+        AAn/PR06/wYABgoAAktGHR0dHR0dHR0dISEhISE9/wsAADD/IjpPBQAHEgAAQU0eHR0dHR0dHR0dHR0d
+        HSH/QAAABEtJSUoAAAwbAAAq/yMdHR0dHR0dHR0dHR0dHTn/FAAAGv//MQAAFD4AAA7/PB0dHR0dHR0d
+        HR0dHR0dH01KAgAAQv8UAAAqAAcAAEFPIR0dHR0dHR0dHR0dHR0dJP8oAAASQgQAAkIAJwAAEv9HHR0d
+        HR0dHR0dHR0dHR0dSE4GAAAHAAAQAABKBgAAM/86HR0dHR0dHR0dHR0dHR0i/zMAAAAAAD4AAAAsAAAD
+        Qv84HR0dHR0dHR0dHR0dHR1G/w8AAAAYAAAAAAASAAAIQf89IR0dHR0dHR0dHR0gO///LwAACgAAAAAA
+        AEsKAAACL/9POiMeHR0dHR0iOU3///9OCAZCAAAAAAAAAEIKAAAAE0D//0w9PDw9TP//QRUv//81PgAA
+        AAAAAAAAAEsSAAAAAA4rQU7//05CLBACAAhLAAAAAAAAAAAAAAAAAAAsBgAAAAAABAYGBAAAAAAABEAA
+        AAAAAAAAAAAAAAAAAABKJwcAAAAAAAAAAAAABxtCAAAAAAAAAAAAAAAAAAAAAAAAAD4bEgoHBwoSGzUA
+        AAAAAAAAAAAAAP/AA///gAD//wAAf/gAAB/wAAAP4AAAB+AAAAfAAAADgAAAAYAAAAEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAABgAAAAcAAAAPgAAAH4AAAB/AA
+        AA/4AAB//gAAf/8AAP//4Af/
+</value>
+  </data>
+  <data name="tsLabelOperation.Text" xml:space="preserve">
+    <value>Ready           </value>
+  </data>
+  <data name="&gt;&gt;toolStripMain.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;tpbEnglish.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmiOpenArchive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dockPanelMain.Type" xml:space="preserve">
+    <value>WeifenLuo.WinFormsUI.Docking.DockPanel, WeifenLuo.WinFormsUI.Docking, Version=2.9.0.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481</value>
+  </data>
+  <data name="&gt;&gt;tpbService.Type" xml:space="preserve">
+    <value>PulseButtonLib.PulseButton, PulseButton, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmiSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpbService.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmsMenuWindow.Name" xml:space="preserve">
+    <value>cmsMenuWindow</value>
+  </data>
+  <data name="&gt;&gt;tpbInternet.Type" xml:space="preserve">
+    <value>PulseButtonLib.PulseButton, PulseButton, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmiLoadFromDevice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tpbRussian.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="cmiTileVertical.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="&gt;&gt;tpbUsb.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;tpbService.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="tsProgressReading.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmsMenuHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tpbWifi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 40</value>
+  </data>
+  <data name="cmiOpenArchive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="tsddbtnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="&gt;&gt;cmsMenuFile.Name" xml:space="preserve">
+    <value>cmsMenuFile</value>
+  </data>
+  <data name="&gt;&gt;cmiSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpbWifi.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tpbService.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 40</value>
+  </data>
+  <data name="&gt;&gt;cmiCascade.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmsMenuService.Name" xml:space="preserve">
+    <value>cmsMenuService</value>
+  </data>
+  <data name="cmsMenuFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 76</value>
+  </data>
+  <data name="&gt;&gt;tpbWifi.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormMain</value>
+  </data>
+  <data name="cmiCascade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="&gt;&gt;cmiOpenArchive.Name" xml:space="preserve">
+    <value>cmiOpenArchive</value>
+  </data>
+  <data name="cmiOpenArchive.Text" xml:space="preserve">
+    <value>Open Archive...</value>
+  </data>
+  <data name="&gt;&gt;cmiSeparator1.Name" xml:space="preserve">
+    <value>cmiSeparator1</value>
+  </data>
+  <data name="cmiCascade.Text" xml:space="preserve">
+    <value>Cascade</value>
+  </data>
+  <data name="&gt;&gt;tpbWindow.Name" xml:space="preserve">
+    <value>tpbWindow</value>
+  </data>
+  <data name="tpbService.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 0</value>
+  </data>
+  <data name="cmiLoadFromDevice.Text" xml:space="preserve">
+    <value>Load from Device...</value>
+  </data>
+  <data name="tpbEnglish.Location" type="System.Drawing.Point, System.Drawing">
+    <value>886, 0</value>
+  </data>
+  <data name="&gt;&gt;tsProgressReading.Name" xml:space="preserve">
+    <value>tsProgressReading</value>
+  </data>
+  <data name="tsddbtnCancel.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tsmiAbortReading.Text" xml:space="preserve">
+    <value>Click here if you want to abort the operation</value>
+  </data>
+  <data name="cmsMenuWindow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 70</value>
+  </data>
+  <data name="cmiExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 22</value>
+  </data>
+  <data name="tpbWindow.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;tsmiAbortReading.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmiSettings.Name" xml:space="preserve">
+    <value>cmiSettings</value>
+  </data>
+  <data name="&gt;&gt;toolStripMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="cmiOpenArchive.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tpbRussian.Type" xml:space="preserve">
+    <value>PulseButtonLib.PulseButton, PulseButton, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cmiTileHorizontal.Text" xml:space="preserve">
+    <value>Tile Horizontal</value>
+  </data>
+  <data name="cmiAbout.Text" xml:space="preserve">
+    <value>About...</value>
+  </data>
+  <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 629</value>
+  </data>
+  <data name="&gt;&gt;cmiAbout.Name" xml:space="preserve">
+    <value>cmiAbout</value>
+  </data>
+  <data name="tpbHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="tsmiAbortReading.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAI9SURBVDhPjZNdSFNhGMen4gd+oNhA70TBL/BGr7woBQVR
+        VMIZ6E2SzVAh7EJUupJgsC6iUCGxaAkSIU5xLNo0iFAEXdDnMGNDiLm5HZ2iFRHu7N//Pa6G7igd+HG2
+        532e3/O857xHo1G5jsrLcRq1vJjY36Jwby9gNAKjo8DgINDaiu8tLYr0TJFYlBsagL4+YGQEGBsDDIZj
+        QXc3EBGoSpTOVVVKp/2eHvxuawMqKyEXFgKlpQjx905NDVBRgUBeXuwkQiAWgzodlqxWOIaGIGk02CV+
+        8oLx+dlZfGtuRjA3FxbybyufGxvhLSrCUUEBAtXV8Lrd2JNlrPT340tCAuY5+rrHgzAAb2cnXCkpcGRm
+        4nZ29rFECDa0Wkg5OThIS4OrthbS1hZ+UuJcXIRfkoBwGF69XhG+T03FMhnOz48K1tLTsZGRATcF6xz5
+        3aWLCO7vsScgE1d7OxyMv6VgJSkJdnJiglccazU5GR8TE7HKxJd8mMHDQ0UQImsDA3jN+HJcHOyUmMmt
+        rKzoBBYWLzC4xKTnTU346vOxMgSfyYQfAT8OKFmgxMLOM5RMxsfjqvZC9EGa+apmWDxVUoJPm5vKnp1d
+        XbAy9qauDrvb2/hFia2jA48YM1Jw4kAJwRTNJm7FOTGBDzwLZibOkWlir6+Hx2bDs+Ji3ON/HXNjTqSQ
+        POTiOHlMnpJJ8iQSe8D7XXKdnHmchcTAhPsRRJHoKArvkCtqndVsN8vKoOcbucGia+TyeV3/6zM9J+kP
+        DwidVZs1MF8AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;tpbWindow.Type" xml:space="preserve">
+    <value>PulseButtonLib.PulseButton, PulseButton, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tpbHelp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dockPanelMain.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tpbUsb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 40</value>
+  </data>
+  <data name="&gt;&gt;tpbEnglish.Type" xml:space="preserve">
+    <value>PulseButtonLib.PulseButton, PulseButton, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;tsLabelOperation.Name" xml:space="preserve">
+    <value>tsLabelOperation</value>
+  </data>
+  <data name="toolStripMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>963, 40</value>
+  </data>
+  <data name="tpbHelp.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="&gt;&gt;tpbEnglish.Name" xml:space="preserve">
+    <value>tpbEnglish</value>
+  </data>
+  <data name="&gt;&gt;cmiTileVertical.Name" xml:space="preserve">
+    <value>cmiTileVertical</value>
+  </data>
+  <data name="tsLabelOperation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 17</value>
+  </data>
+  <data name="&gt;&gt;tpbWifi.Name" xml:space="preserve">
+    <value>tpbWifi</value>
+  </data>
+  <data name="&gt;&gt;tpbWindow.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;cmiAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpbFile.Type" xml:space="preserve">
+    <value>PulseButtonLib.PulseButton, PulseButton, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tpbUsb.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tpbInternet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 0</value>
+  </data>
+  <data name="&gt;&gt;cmiTileVertical.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tpbWindow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 40</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmsMenuService.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmiTileHorizontal.Name" xml:space="preserve">
+    <value>cmiTileHorizontal</value>
+  </data>
+  <data name="cmiTileHorizontal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="&gt;&gt;cmsMenuWindow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmiCascade.Name" xml:space="preserve">
+    <value>cmiCascade</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Name" xml:space="preserve">
+    <value>statusStrip</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="toolStripMain.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 40</value>
+  </data>
+  <data name="cmsMenuHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 26</value>
+  </data>
+  <data name="&gt;&gt;toolStripMain.Name" xml:space="preserve">
+    <value>toolStripMain</value>
+  </data>
+  <data name="&gt;&gt;cmsMenuHelp.Name" xml:space="preserve">
+    <value>cmsMenuHelp</value>
+  </data>
+  <data name="&gt;&gt;toolStripMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="toolStripMain.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="tpbEnglish.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;tsddbtnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tpbUsb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>455, 0</value>
+  </data>
+  <data name="tpbInternet.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;tpbFile.Name" xml:space="preserve">
+    <value>tpbFile</value>
+  </data>
+  <data name="&gt;&gt;tpbInternet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tpbInternet.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tpbFile.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;tpbHelp.Type" xml:space="preserve">
+    <value>PulseButtonLib.PulseButton, PulseButton, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cmiSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 22</value>
+  </data>
+  <data name="&gt;&gt;cmsMenuFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmiSettings.Text" xml:space="preserve">
+    <value>Settings...</value>
+  </data>
+  <data name="tsProgressReading.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tpbInternet.Text" xml:space="preserve">
+    <value>Internet</value>
+  </data>
+  <data name="cmiSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 6</value>
+  </data>
+  <data name="&gt;&gt;tsLabelOperation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tpbInternet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 40</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>963, 651</value>
+  </data>
+  <data name="tpbWifi.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tsmiAbortReading.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 22</value>
+  </data>
+  <data name="&gt;&gt;dockPanelMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmiExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpbWifi.Type" xml:space="preserve">
+    <value>PulseButtonLib.PulseButton, PulseButton, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tpbRussian.Location" type="System.Drawing.Point, System.Drawing">
+    <value>815, 0</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpbFile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tpbWifi.Text" xml:space="preserve">
+    <value>Wi-Fi</value>
+  </data>
+  <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>963, 22</value>
+  </data>
+  <data name="&gt;&gt;tpbEnglish.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tsmiAbortReading.Name" xml:space="preserve">
+    <value>tsmiAbortReading</value>
+  </data>
+  <data name="&gt;&gt;cmiTileHorizontal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsProgressReading.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tpbWifi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>635, 0</value>
+  </data>
+  <data name="cmiExit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;cmiLoadFromDevice.Name" xml:space="preserve">
+    <value>cmiLoadFromDevice</value>
+  </data>
+  <data name="tpbFile.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="&gt;&gt;tpbRussian.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tpbService.Name" xml:space="preserve">
+    <value>tpbService</value>
+  </data>
+  <data name="&gt;&gt;tpbInternet.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tpbWifi.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <metadata name="toolStripMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>236, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cmsMenuFile.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>362, 17</value>
+  </metadata>
+  <metadata name="cmsMenuWindow.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>628, 17</value>
+  </metadata>
+  <metadata name="cmsMenuHelp.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>778, 17</value>
+  </metadata>
+  <metadata name="cmsMenuService.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>485, 17</value>
+  </metadata>
+  <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>127, 17</value>
+  </metadata>
+</root>

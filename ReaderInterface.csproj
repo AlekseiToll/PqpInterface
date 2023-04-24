@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8686DA5A-1785-4043-84D9-6369F718BFC5}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName />
+    <AssemblyName>MainInterface</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MainInterface</RootNamespace>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="DeviceIO\DeviceIO.csproj">
+      <Project>{826E3BCA-0AA5-4612-A611-51907AE07201}</Project>
+      <Name>DeviceIO</Name>
+    </ProjectReference>
+    <ProjectReference Include="EmRangeControl\EmRangeControl.csproj">
+      <Project>{A47E495C-A50B-47E3-9148-D788B4E9C652}</Project>
+      <Name>EmRangeControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="EmService\EmService.csproj">
+      <Project>{0CA7EBD3-A24E-4D19-9001-214C81ADAC51}</Project>
+      <Name>EmService</Name>
+    </ProjectReference>
+    <ProjectReference Include="ExportToExcel\ExportToExcel.csproj">
+      <Project>{20a0a526-729f-4895-9d0f-8026af1ba03b}</Project>
+      <Name>ExportToExcel</Name>
+    </ProjectReference>
+    <ProjectReference Include="FileAnalyzer\FileAnalyzer.csproj">
+      <Project>{F2163149-3FE1-4738-8FAA-FE529990E6D8}</Project>
+      <Name>FileAnalyzer</Name>
+    </ProjectReference>
+    <ProjectReference Include="GroupPanel\GroupPanel.csproj">
+      <Name>GroupPanel</Name>
+      <Project>{162E9112-2D5F-41A5-BFDE-50237DEFA52C}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="MonthCalendar\MonthCalendar.csproj">
+      <Project>{19BBA547-3515-4E3E-ADB7-E9895171A43E}</Project>
+      <Name>MonthCalendar</Name>
+    </ProjectReference>
+    <ProjectReference Include="PulseButton\PulseButton.csproj">
+      <Project>{17A4D90E-2DEB-4BD7-82B6-16860C90B4E9}</Project>
+      <Name>PulseButton</Name>
+    </ProjectReference>
+    <ProjectReference Include="WinFormsUI\WinFormsUI.csproj">
+      <Project>{C75532C4-765B-418E-B09B-46D36B2ABDB1}</Project>
+      <Name>WinFormsUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="ZedGraph\ZedGraph.csproj">
+      <Project>{2541686B-1673-43BF-AF89-3163945DB009}</Project>
+      <Name>ZedGraph</Name>
+    </ProjectReference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="emstrings.ru-RU1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>emstrings.ru-RU.resx</DependentUpon>
+    </Compile>
+    <Compile Include="emstrings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>emstrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FormArchivesList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormArchivesList.Designer.cs">
+      <DependentUpon>FormArchivesList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDocPQPReportSaveDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDocPQPReportSaveDialog.designer.cs">
+      <DependentUpon>FormDocPQPReportSaveDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSettings.Designer.cs">
+      <DependentUpon>FormSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormWaitSearchArchives.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWaitSearchArchives.Designer.cs">
+      <DependentUpon>FormWaitSearchArchives.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormArchiveWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormArchiveWnd.Designer.cs">
+      <DependentUpon>FormArchiveWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPeakLoadTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPeakLoadTime.designer.cs">
+      <DependentUpon>FormPeakLoadTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTemperatureReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTemperatureReport.designer.cs">
+      <DependentUpon>FormTemperatureReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBoxes.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SavingInterface\CheckTreeView\CheckTreeNode.cs" />
+    <Compile Include="SavingInterface\CheckTreeView\DeviceTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SavingInterface\CheckTreeView\enums.cs" />
+    <Compile Include="SavingInterface\CheckTreeView\MeasureTreeNode.cs" />
+    <Compile Include="SavingInterface\CheckTreeView\MeasureTypeTreeNode.cs" />
+    <Compile Include="SavingInterface\CheckTreeView\RegistrationTreeNode.cs" />
+    <Compile Include="SavingInterface\FormDeviceExchange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControlAvgPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlAvgPage.Designer.cs">
+      <DependentUpon>UserControlAvgPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlColumnEnums.cs" />
+    <Compile Include="UserControlPqpPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlPqpPage.Designer.cs">
+      <DependentUpon>UserControlPqpPage.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="emstrings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>emstrings1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="emstrings.ru-RU.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>emstrings.ru-RU1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormArchivesList.resx">
+      <DependentUpon>FormArchivesList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormArchiveWnd.ru-RU.resx">
+      <DependentUpon>FormArchiveWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDocPQPReportSaveDialog.resx">
+      <DependentUpon>FormDocPQPReportSaveDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDocPQPReportSaveDialog.ru-RU.resx">
+      <DependentUpon>FormDocPQPReportSaveDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.ru-RU.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSettings.resx">
+      <DependentUpon>FormSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSettings.ru-RU.resx">
+      <DependentUpon>FormSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWaitSearchArchives.resx">
+      <DependentUpon>FormWaitSearchArchives.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormArchiveWnd.resx">
+      <DependentUpon>FormArchiveWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPeakLoadTime.resx">
+      <DependentUpon>FormPeakLoadTime.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPeakLoadTime.ru-RU.resx">
+      <DependentUpon>FormPeakLoadTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTemperatureReport.resx">
+      <DependentUpon>FormTemperatureReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTemperatureReport.ru-RU.resx">
+      <DependentUpon>FormTemperatureReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWaitSearchArchives.ru-RU.resx">
+      <DependentUpon>FormWaitSearchArchives.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SavingInterface\FormDeviceExchange.resx">
+      <DependentUpon>FormDeviceExchange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SavingInterface\FormDeviceExchange.ru-RU.resx">
+      <DependentUpon>FormDeviceExchange.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SavingInterface\FormDeviceExchange.ru.resx">
+      <DependentUpon>FormDeviceExchange.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlAvgPage.resx">
+      <DependentUpon>UserControlAvgPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlAvgPage.ru-RU.resx">
+      <DependentUpon>UserControlAvgPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlPqpPage.resx">
+      <DependentUpon>UserControlPqpPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlPqpPage.ru-RU.resx">
+      <DependentUpon>UserControlPqpPage.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\title.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eng.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\chbChecked.jpg" />
+    <Content Include="Resources\chbChecked2.JPG" />
+    <Content Include="Resources\chbDisabled.JPG" />
+    <Content Include="Resources\chbUnChecked.JPG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>
